@@ -50,18 +50,18 @@
 
 main>*:not(header) {
   margin-top: var(--default-page-section-top-margins);
-  /* background-color: rgba(0, 0, 255, 0.071); */
+  ///* background-color: rgba(0, 0, 255, 0.071); */
 }
 
 /* Add margin left to all direct children of the body except header, footer, main, aside, section*/
-body>*:not(header):not(footer):not(aside):not(section) {
+body>app-root>*:not(header):not(footer):not(aside):not(section) {
   margin-left: 1rem;
 }
 
 /* Create sticky header */
 header {
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 1rem;
   background-color: var(--primary);
@@ -74,8 +74,8 @@ header * {
 }
 
 /* Body should have padding top to make room for the header */
-body {
-  /* padding-top: 3rem; */
+main {
+  padding-top: 4rem;
 }
 
 /* Create a navigation bar with links on left and profile icon on the right of the header using flex */
@@ -310,7 +310,9 @@ tr:hover {
   width: 90%;
   max-width: 940px;
   margin: var(--default-page-section-top-margins) auto 0 auto;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 /** Validation error styles */
