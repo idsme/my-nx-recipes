@@ -2,7 +2,7 @@
   "name": "sandboxnx15alone",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "sandboxnx15alone",
+  "prefix": "app",
   "sourceRoot": "./src",
   "tags": [],
   "targets": {
