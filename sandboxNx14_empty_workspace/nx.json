@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "sanbox14",
+  "npmScope": "sandbox14",
   "affected": {
     "defaultBase": "master"
   },
