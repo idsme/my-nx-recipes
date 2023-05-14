@@ -115,6 +115,7 @@ nav li a:visited {
 }
 
 footer {
+  margin-top: 3rem;
   background-color: var(--primary);
   padding: 0.5rem 0;
   text-align: center;
@@ -312,7 +313,6 @@ tr:hover {
   margin: var(--default-page-section-top-margins) auto 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-bottom: 1rem;
 }
 
 /** Validation error styles */
