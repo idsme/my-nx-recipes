@@ -1,2 +1,206 @@
-<sandboxnx15alone-nx-welcome></sandboxnx15alone-nx-welcome>
-<router-outlet></router-outlet>
+<header>
+    <nav>
+        <ul>
+            <!-- <li><img src="images/logos/ACMELabs_logo_bottle.svg" style="padding: 0.5rem"></img></li> -->
+            <li><a href="index.html">
+                <span class="fa fa-home"></span>
+                <span>Home</span>
+                <div class="navigation-underline-wrapper">
+                    <div class="navigation-underline"></div>
+                </div>
+            </a></li>
+            <li><a href="about.html">
+                <span class="fa fa-info"></span>
+                <span>About</span>
+            </a></li>
+            <li>
+                <a href="contact.html">
+                    <span class="fa fa-bullhorn"></span>
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="skill_progress_bar.html">
+                    <span class="fa fa-bullhorn"></span>
+                    <span>skill-progress-bar-youtube</span>
+                </a>
+            </li>
+        </ul>
+
+        <span style="display: flex; justify-content: center; align-items: center;">
+                <span>ACME Labs BV</span>
+                <img src="assets/logos/ACMELabs_logo_bottle.svg" style="padding: 0.5rem"/>
+            </span>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span class="fa fa-search"></span>
+                    <span>search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <section>
+        <h1>Style Test Page</h1>
+        <h2>ACME labs css styling for POCs</h2>
+        <p>
+            Just add this css to your .html file..
+            And it should look a whole lot better then it did before.
+            Style will look best if you keep to html5 tags.
+            html&gt;header&gt;body&gt;main&gt;section&gt&gt;footer
+        </p>
+    </section>
+
+    <section>
+        <h1>Here is a headline H1</h1>
+        <h2>This is a sub headline that uses the h2 tag</h2>
+        <h3>Here's an example of h3 tags in action</h3>
+        <h4>Here's an h4 tag</h4>
+        <p>Here's the kind of font that gets produced with paragraph tags.</p>
+        <p><i>Here's an example of some italic text.</i></p>
+        <p><b><i>Here is some bold text.</i></b></p>
+        <p><b><i>This text is bold and italic</i></b></p>
+    </section>
+
+    <section>
+        <h3>Default Buttons</h3>
+        <h4>What are the default button styles available</h4>
+        <button class="float-right">Button Float Right</button>
+        <button class="float-right button-alt">Alt Button</button>
+
+        <button>Default Button</button>
+        <button class="button-alt">Alt Button</button>
+    </section>
+
+    <section>
+        <h2>Form Title</h2>
+        <h3>Form Description</h3>
+        <form action="#">
+            <label>First Name</label>
+            <input type="text" name="firstname" placeholder="Enter your first name here">
+            <!-- <label>First Name</label>
+            <input type="text" class="xform-field-validation-error" name="firstname"
+                placeholder="Enter your first name here"> -->
+            <label>Last Name</label>
+            <input type="text" name="lastname" placeholder="Enter your last name here">
+            <label>City</label>
+            <select name="city">
+                <option value="" selected="">Select city...</option>
+                <option value="1">London</option>
+                <option value="2">Paris</option>
+                <option value="3">New York</option>
+            </select>
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="Enter your email address here">
+            <label>Description</label>
+            <textarea name="description" rows="5" placeholder="Use this space to enter a description"></textarea>
+            <button>Submit</button>
+            <a href="#" class="button alt">Cancel</a>
+            <p><input type="checkbox" name="join" value="1" checked=""> Add me to the mailing list</p>
+        </form>
+    </section>
+
+    <section>
+        <h2>Ordered list</h2>
+        <h3>list description </h3>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Unordered list</h2>
+        <h3>list description</h3>
+        <ul>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Table Title</h2>
+        <h3>Table Description</h3>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Country</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>Guetta</td>
+                <td>david@</td>
+                <td>France</td>
+                <td>Paris</td>
+            </tr>
+            <tr>
+                <td>Martin</td>
+                <td>Garrix</td>
+                <td>martin@example.com</td>
+                <td>NL</td>
+                <td>Amstelveen</td>
+            </tr>
+            <tr>
+                <td>Kate</td>
+                <td>Bush</td>
+                <td>kate@example.com</td>
+                <td>UK</td>
+                <td>Maidstone</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Image</h2>
+        <h3>Image Description</h3>
+        <img src="https://via.placeholder.com/300x200" alt="placeholder image">
+    </section>
+
+    <section>
+        <a href="https://www.linkedin.com/in/idsachterhof/">Here's an ordinary text link</a>
+        <a href="https://www.linkedin.com/in/idsachterhof/" class="button">This link looks like a button</a>
+        <a href="https://www.linkedin.com/in/idsachterhof/" class="button button-alt">This link looks like an
+            alternative
+            button</a>
+
+
+        <a href="/technology" aria-label="Click to view all Solutions" class="navigation-link">
+
+                <span class="heading-8" data-component="cl-a1-heading">
+                    Technology
+                </span>
+
+            <div class="navigation-underline-wrapper">
+                <div class="navigation-underline"></div>
+            </div>
+        </a>
+        <a href="/technology" aria-label="Click to view all Solutions" class="navigation-link">
+
+                <span class="heading-8" data-component="cl-a1-heading">
+                    Technology
+                </span>
+
+            <div class="navigation-underline-wrapper">
+                <div class="navigation-underline"></div>
+            </div>
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/">Home</a></li>
+    </ul>
+    <p>Powered by: ACME Labs</p>
+</footer>
