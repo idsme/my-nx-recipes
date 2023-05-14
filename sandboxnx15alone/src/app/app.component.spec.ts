@@ -14,14 +14,14 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome sandboxnx15alone'
+    expect(compiled.querySelector('span#company-name')?.textContent).toContain(
+      'ACME Labs BV'
     );
   });
 
-  it(`should have as title 'sandboxnx15alone'`, () => {
+  it(`should have as title 'some app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('sandboxnx15alone');
+    expect(app.title).toEqual('some app');
   });
 });
