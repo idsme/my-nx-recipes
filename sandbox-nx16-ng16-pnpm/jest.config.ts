@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'sandbox-nx16-ng15-pnpm',
+  displayName: 'sandbox-nx16-ng16-pnpm',
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/sandbox-nx16-ng15-pnpm',
+  coverageDirectory: './coverage/sandbox-nx16-ng16-pnpm',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

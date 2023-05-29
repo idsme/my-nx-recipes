@@ -16,13 +16,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome sandbox-nx16-ng15-pnpm'
+      'Welcome sandbox-nx16-ng16-pnpm'
     );
   });
 
   it(`should have as title 'sandbox-nx16-ng15-pnpm'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('sandbox-nx16-ng15-pnpm');
+    expect(app.title).toEqual('sandbox-nx16-ng16-pnpm');
   });
 });

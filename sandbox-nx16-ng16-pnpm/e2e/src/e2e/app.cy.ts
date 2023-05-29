@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('sandbox-nx16-ng15-pnpm', () => {
+describe('sandbox-nx16-ng16-pnpm', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -8,6 +8,6 @@ describe('sandbox-nx16-ng15-pnpm', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome sandbox-nx16-ng15-pnpm');
+    getGreeting().contains('Welcome sandbox-nx16-ng16-pnpm');
   });
 });

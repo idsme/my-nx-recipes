@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'sandbox-nx16-ng15-pnpm-nx-welcome',
+  selector: 'sandbox-nx16-ng16-pnpm-nx-welcome',
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
